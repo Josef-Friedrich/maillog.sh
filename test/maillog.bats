@@ -20,6 +20,6 @@ setup() {
 
 @test "execute: maillog.sh -t" {
 	OUTPUT=$(./maillog.sh -t)
-	test -n "$(echo $OUTPUT | grep 'Test mail test@example.com')"
-	test -n "$(echo $OUTPUT | grep 'Sending test mail to test@example.com.')"
+	test -n "$(echo $OUTPUT | grep 'Test mail')"
+	test -n "$(echo $OUTPUT | grep 'Sending test mail to.')"
 }
