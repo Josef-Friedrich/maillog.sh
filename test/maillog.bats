@@ -19,7 +19,7 @@ setup() {
 }
 
 @test "execute: maillog.sh -t" {
-	run ./maillog.sh -t > $HOME/debug
+	run ./maillog.sh -t
 	[ "$status" -eq 0 ]
 	[ "${lines[0]}" = "Sending test mail to test@example.com." ]
 	[ "${lines[1]}" = "-s Test mail test@example.com" ]
