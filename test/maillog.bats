@@ -1,8 +1,8 @@
 #!/usr/bin/env bat
 
 setup() {
-	. ./test/test-helper.sh
-	mock_path $(pwd)/test/bin
+	. ./test/lib/test-helper.sh
+	mock_path test/bin
 	export MAILLOG_EMAIL=test@example.com
 }
 
