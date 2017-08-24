@@ -2,6 +2,11 @@
 
 # maillog.sh
 
+
+## Summary / Short description
+
+> Wrapper script to easily send log informations by email.
+
 ## Usage
 
 ```
@@ -55,9 +60,9 @@ Options:
 	-h:       Show this help text.
 	-t:       Send a test mail (no further arguments needed).
 ```
-
 ## Testing
 
 ```
 make test
 ```
+
