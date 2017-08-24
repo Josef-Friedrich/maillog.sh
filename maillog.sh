@@ -28,7 +28,7 @@ fi
 
 NAME="maillog.sh"
 
-FIRST_RELEASE=2017-08-13
+FIRST_RELEASE=
 VERSION=1.0
 PROJECT_PAGES="https://github.com/JosefFriedrich-shell/maillog.sh"
 SHORT_DESCRIPTION='Wrapper script to easily send log informations by email.'
