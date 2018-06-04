@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/JosefFriedrich-shell/maillog.sh.svg?branch=master)](https://travis-ci.org/JosefFriedrich-shell/maillog.sh)
+[![Build Status](https://travis-ci.org/Josef-Friedrich/maillog.sh.svg?branch=master)](https://travis-ci.org/Josef-Friedrich/maillog.sh)
 
 # maillog.sh
 
